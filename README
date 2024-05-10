@@ -1,6 +1,4 @@
-# app.py Documentation
-
-This document provides an overview of the `app.py` file.
+# Testing out llamama model from AWS and use lambda to invoke
 
 # Summariser in Key Points
 
@@ -11,8 +9,9 @@ This is a simple AWS Lambda function that uses the Bedrock Runtime service to ge
 * An AWS account
 * An S3 bucket to store the generated summaries (Unique)
 * The Bedrock Runtime service set up in your AWS account
-- Currently using meta.llama3-70b-instruct-v1:0
-- Available in US-EAST-1. 
+	- Currently using meta.llama3-70b-instruct-v1:0
+	- Available in US-EAST-1. 
+
 ## Usage
 
 To use this Lambda function, you need to:
